@@ -14,16 +14,33 @@
     width: 400px;
 }
 
+#img-one{
+    transform: translate(-13%, 0%);
+}
+
 
 #height {
     height: 130px;
 
 }
 
-@media only screen and (max-width: 1024px) {}
+@media only screen and (max-width: 1280px) {
+    #img-one{
+        transform: translate(-5%, 0%);
+    }
+}
 
 
 @media screen and (max-width: 600px) {
+.expostores img{
+    display: none;
+}
+
+    #img-one{
+        width: 252px;
+        height: 260px;
+        transform: translate(0%, 0%);
+    }
     .redes img {
         height: 50px;
         width: 200px;
