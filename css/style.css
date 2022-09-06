@@ -3,8 +3,13 @@
     height: 153;
 }
 
+#border-top{
+    
+    border-top: solid 1px  gray;
+}
+
 #video {
-    width: 630px;
+    width: 755px;
     height: 400px;
 }
 
@@ -24,6 +29,12 @@
 
 }
 
+@media only screen and (max-width: 1366px) {
+    #img-one{
+        transform: translate(-4%, 0%);
+    }
+}
+
 @media only screen and (max-width: 1280px) {
     #img-one{
         transform: translate(-5%, 0%);
@@ -32,7 +43,52 @@
 
 @media only screen and (max-width: 1024px) {
     #img-one{
-        transform: translate(-1%, 0%);
+        transform: translate(-0%, 0%);
+    }
+
+    #video {
+        width: 630px;
+        height: 400px;
+    }
+    
+}
+
+
+@media only screen and (max-width: 966px) {
+    #video {
+        width: 700px;
+        height: 300px;
+    }
+
+    #img{
+        width: 700px;
+        height: 600px;
+    }
+
+    #img-one{
+        transform: translate(-0%, 0%);
+
+        width: 700px;
+        height: 600px;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    #video {
+        width: 700px;
+        height: 500px;
+    }
+
+    #img{
+        width: 700px;
+        height: 500px;
+    }
+
+    #img-one{
+        transform: translate(-0%, 0%);
+
+        width: 700px;
+        height: 500px;
     }
 }
 
@@ -43,8 +99,8 @@
 }
 
     #img-one{
-        width: 252px;
-        height: 260px;
+        width: 494px;
+        height: 300px;
         transform: translate(0%, 0%);
     }
     .redes img {
@@ -53,13 +109,38 @@
     }
 
     #video {
-        width: 250px;
-        height: 250px;
+        width: 494px;
+        height: 300px;
     }
 
 
     #img{
-        height:200px ;
-        width: 250px;
+        height:300px ;
+        width: 494px;
     }
 }
+
+@media screen and (max-width: 494px) {
+   
+    
+        #img-one{
+            width: 300px;
+            height: 200px;
+            transform: translate(0%, 0%);
+        }
+        .redes img {
+            height: 50px;
+            width: 200px;
+        }
+    
+        #video {
+            width: 300px;
+            height: 200px;
+        }
+    
+    
+        #img{
+            height:200px ;
+            width: 300px;
+        }
+    }
