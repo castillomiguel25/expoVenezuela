@@ -30,6 +30,12 @@
     }
 }
 
+@media only screen and (max-width: 1024px) {
+    #img-one{
+        transform: translate(-1%, 0%);
+    }
+}
+
 
 @media screen and (max-width: 600px) {
 .expostores img{
