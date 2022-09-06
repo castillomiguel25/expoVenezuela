@@ -1,0 +1,42 @@
+#init img {
+    width: 250;
+    height: 153;
+}
+
+#video {
+    width: 630px;
+    height: 400px;
+}
+
+
+.redes img {
+    height: 50px;
+    width: 400px;
+}
+
+
+#height {
+    height: 130px;
+
+}
+
+@media only screen and (max-width: 1024px) {}
+
+
+@media screen and (max-width: 600px) {
+    .redes img {
+        height: 50px;
+        width: 200px;
+    }
+
+    #video {
+        width: 250px;
+        height: 250px;
+    }
+
+
+    #img{
+        height:200px ;
+        width: 250px;
+    }
+}
